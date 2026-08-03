@@ -15,12 +15,19 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  height: 100%;
+}
+
 body {
   margin: 0;
-  background-image: url("D:\\trial 1\\karem\\WhatsApp Image 2026-08-03 at 9.03.30 PM.jpeg");
+  /* Use the image placed in the project folder. Keep the name as-is or rename to bg.jpg if preferred. */
+  background-image: url("WhatsApp Image 2026-08-03 at 9.03.30 PM.jpeg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   color: var(--text);
 }
 
